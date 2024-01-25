@@ -21,7 +21,7 @@ w, h = 1024, 1024
 scale = 0.05
 maxit = 1000
 
-path = "C:/Users/learn-admin/Desktop/UnistPy/images/"
+path = "../images/"
 filename = path + "img011.png"
 
 def color(i,maxit):
