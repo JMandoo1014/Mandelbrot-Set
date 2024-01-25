@@ -1,7 +1,7 @@
 import cv2
 import glob
 
-image_path = "C:/Users/learn-admin/Desktop/UnistPy/images/*.png"
+image_path = "../images/*.png"
 
 image_files = sorted(glob.glob(image_path))
 images = [cv2.imread(file) for file in image_files]
